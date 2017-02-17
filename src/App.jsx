@@ -63,7 +63,7 @@ class InfoPane extends React.Component {
         <h3>How to use.</h3>
         <p>Just type what's on your mind and click enter on you keyboard. If anyone else writes something, the list of 'Shoutouts' will be <b>updated in real-time.</b></p>
         <h3>How it works.</h3>
-        <p>The client code was built with React.js, and the backend with Sails.js. After the client submits a shoutout, a POST request is sent to the server, which persists the record (via Waterline ORM and PostgreSQL DB) and then broadcasts the new record to all subscribing clients with the help of Socket.io. Upon receiving the socket broadcast, React gracefully updates the list of shoutouts on the DOM.</p>
+        <p>The client was built with React.js, and the backend with Sails.js. After the client submits a shoutout, a POST request is sent to the server, which persists the record (via Waterline ORM and PostgreSQL DB) and then broadcasts the new record to all subscribing clients with the help of Socket.io. Upon receiving the socket broadcast, React gracefully updates the list of shoutouts on the DOM.</p>
         <h3>Why.</h3>
         <p>Been an Angular.js guy for a while, decided to learn React.js, loving it so far. Also a huge Sails.js fan, checkout a penny auction I built using it: <a href="https://biddybomb.com">biddybomb.com</a>.</p>
         <a href="https://github.com/CodeSchneider/shoutout-client" className="github-link"><i className="fa fa-github" aria-hidden="true"></i> Client code</a>
